@@ -8,7 +8,7 @@ var helper = require('./helpers');
 var Action = function(){};
 
 Action.prototype.greeting = function () {
-  return config.recomendations[helper.getRandomInt(0,6)];
+  return config.recomendations[helper.getRandomInt(0,13)];
 };
 
 module.exports = new Action();
