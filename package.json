@@ -1,0 +1,18 @@
+{
+  "name": "maubot",
+  "version": "1.0.0",
+  "description": "Saludos mañaneros de @maugelves en los canales de Slack de WP",
+  "scripts": {
+    "start": "node app/maubot.js"
+  },
+  "author": "@c4rl0sbr4v0",
+  "license": "ISC",
+  "engines": {
+    "node": "5.8.0"
+  },
+  "dependencies": {
+    "cron": "^1.2.1",
+    "forever": "^0.15.3",
+    "slackbots": "^1.0.2"
+  }
+}
